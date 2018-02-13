@@ -27,7 +27,7 @@
 		overflow-y: scroll;
 		margin-right: 20px;
 		margin-top: 20px;
-		margin-bottom: 50px;
+		margin-bottom: 150px;
 		padding: 20px;
 
 	}
@@ -41,7 +41,7 @@
 		overflow-y: scroll;
 		overflow-x: scroll;
 		margin-top: 20px;
-		margin-bottom: 50px;
+		margin-bottom: 150px;
 		padding: 20px;
 
 	}
@@ -71,7 +71,7 @@
 		font-size: 30px;
 		overflow-y: scroll;
 		margin-right: 20px;
-		margin-bottom: 50px;
+		margin-bottom: 150px;
 		padding: 20px;
 
 
@@ -82,11 +82,27 @@
 		text-align: center;
 	}
 
+	.header {
+
+		font-family: Adelon;
+		font-size: 100px;
+		text-align: center;
+	}
+
+	.header:hover {
+		color: LightSlateGrey;
+	}
+
 	.title {
 
-		font-size: 50px;
+		font-size: 150px;
 		font-family: Adelon;
+		text-transform: uppercase;
 		}
+
+	.title:hover {
+		color: LightSlateGrey;
+	}
 
 	.plot-images {
 		height: 300px;
@@ -96,7 +112,7 @@
 		border: 1px solid;
 		overflow-y: scroll;
 		overflow-x: scroll;
-		margin-bottom: 50px;
+		margin-bottom: 150px;
 		padding: 20px;
 
 	}
@@ -110,7 +126,7 @@
 		font-size: 30px;
 		overflow-y: scroll;
 		margin-right: 20px;
-		margin-bottom: 50px;
+		margin-bottom: 150px;
 		padding: 20px;
 
 	}
@@ -123,7 +139,7 @@
 		border: 1px solid;
 		overflow-y: scroll;
 		overflow-x: scroll;
-		margin-bottom: 50px;
+		margin-bottom: 150px;
 		padding: 20px;
 
 	}
@@ -131,6 +147,12 @@
 	.coverphoto {
 		height: 700px;
 		width: 500px;
+	}
+
+	.coverphoto:hover{
+		height:1000px;
+		width: 800px;
+
 	}
 
 	.criticalreception-images{
@@ -141,11 +163,16 @@
 		border: 1px solid;
 		overflow-y: scroll;
 		overflow-x: scroll;
-		margin-bottom: 50px;
+		margin-bottom: 150px;
 		padding: 20px;
 
 	}
 
+	.font {
+
+		font-family: Adelon;
+		font-size: 20px;
+	}
 }
 
 .center{
@@ -154,22 +181,44 @@
 	background: red;
 }
 
+ul {
+
+	list-style: none;
+	font-family: Adelon;
+	font-size: 30px;
+}
+
+ul:hover{
+	color: LightSlateGrey;
+		}
+
 	</style>
 
 </head>
 
 <body>
+	<audio controls autoplay none>
+  <source src= "audio/laughter.mp3" type="audio/mp3">
+	</audio>
 
 	<div class="top">
 	<h1 class="title">The Room</h1>
 
 		<img src="images/the-room.jpg" class= "coverphoto">
 
-	<h2>Synopsis</h2>
+		<ul>
+			<li>Starring Tommy Wiseau</li>
+			<li>Written by Tommy Wiseau</li>
+			<li>Directed by Tommy Wiseau</li>
+			<li>Produced by Tommy Wiseau</li>
+		</ul>
+		<br><br><br>
+
+	<h2 class="header">Synopsis</h2>
 	</div>
 
 	<div class="container">
-	<div class="text">
+	<div class="text font">
 		<p> 
 			The Room is a 2003 American independent drama film written, directed, produced by and starring Tommy Wiseau, and co-starring Greg Sestero and Juliette Danielle. The film centers on a melodramatic love triangle between amiable banker Johnny (Wiseau), his deceptive fiancée Lisa (Danielle) and his conflicted best friend Mark (Sestero). A significant portion of the film is dedicated to a series of unrelated subplots, most of which involve at least one supporting character and are left unresolved due to the film's inconsistent narrative structure. According to Wiseau, the title alludes to the potential of a room to be the site of both good and bad events;[4] the stage play from which the screenplay is derived takes place in a single room.[5]
 			<br>
@@ -193,10 +242,10 @@
 		<img src="images/producedby.png" class="img-size">
 	</div>
 
-	<div class="center"><h2>Plot</h2></div>
+	<div class="header"><h2>Plot</h2></div>
 
 	<div>
-		<div class="plot">
+		<div class="plot font">
 		<p>
 			
 			Johnny is a successful banker who lives in a San Francisco townhouse with Lisa, his future wife. Lisa, having become dissatisfied with her life and Johnny, seduces his best friend Mark and the two begin an affair. As the wedding approaches and Johnny's influence at his bank slips, Lisa alternates between glorifying and vilifying Johnny to her family and friends, making false accusations of domestic abuse and defending Johnny against criticisms. Meanwhile, Johnny, having overheard Lisa confess her infidelity to her mother, attaches a tape recorder to their phone in an attempt to identify her lover.
@@ -240,9 +289,9 @@
 		<img src="images/youretearingmeapart.png" class="img-size">
 
 	</div>
-<h2>Characters</h2>
+<h2 class="header">Characters</h2>
 	<div>
-		<div class="characters">
+		<div class="characters font">
 	<p>			
 
 	Tommy Wiseau as Johnny, a successful banker who is engaged to Lisa 
@@ -295,9 +344,9 @@
 			<br><br>
 		</div>	
 	</div>
-<h2>Critical Reception</h2>
+<h2 class="header">Critical Reception</h2>
 	<div>
-		<div class= "plot">
+		<div class= "plot font">
 
 			<p>
 				The Room premiered on June 27, 2003 at the Laemmle Fairfax and Fallbrook theaters in Los Angeles. Wiseau additionally arranged a screening for the cast and the press at one of the venues, renting a spotlight to sit in front of the theater and arriving in a limousine.[3] Ticket buyers were given a free copy of the film's soundtrack on CD. Actress Robyn Paris described the audience laughing at the film, and Variety reporter Scott Foundas, who was also in attendance, would later write that the film prompted "most of its viewers to ask for their money back — before even 30 minutes [had] passed."[3] IFC.com described Wiseau's speaking voice in the film as "Borat trying to do an impression of Christopher Walken playing a mental patient."[50] The Guardian described the film as a mix of "Tennessee Williams, Ed Wood, R. Kelly's Trapped in the Closet".[51]
