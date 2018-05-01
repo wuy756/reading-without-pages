@@ -1,0 +1,158 @@
+@font-face{
+
+	src: "../fonts/WorkSans-Regular.ttf";
+	font-family: "WorkSans-Regular";
+
+}
+
+@font-face{
+
+	src: "../fonts/WorkSans-Black.ttf";
+	font-family: "WorkSans-Black";
+
+}
+
+* {
+
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+
+	font-size: 1.2vw;
+
+}
+
+.center {
+	position: absolute;
+	display: inline-block;
+	width: 100vw;
+	overflow-y: scroll;
+	height: auto;
+	padding-bottom: 20vh;
+
+}
+
+.left {
+	width: 10vw;
+	height: 100vh;
+	position: absolute;
+	display: inline-block;
+	left: 0;
+	/*background: cornflowerblue;*/
+
+}
+
+.right {
+	width: 10vw;
+	height: 100vh;
+	position: absolute;
+	display: inline-block;
+	right: 0;
+	/*top: 100vh;*/
+}
+
+.right > img {
+	width: 80px;
+	display: block;
+	padding-bottom: 120px;
+	position: sticky;
+	top: 100px;
+}
+
+.left > img {
+	width: 80px;
+	display: block;
+	padding-left: 20px;	
+	padding-bottom: 120px;
+	position: sticky;
+	top: 100px;
+}
+
+#civilrights-img{
+
+	padding-top: 200px;
+
+}
+
+.circle {
+
+	margin-top: 20px;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	border: solid 1px black;
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+
+}
+
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: red;
+	display: inline-block;
+	height: auto;
+	width: 100vw;
+	font-family: "WorkSans-Black";
+
+}
+
+.subhead {
+
+	position: sticky;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	height: auto;
+	width: 100vw;
+	font-family: "WorkSans-Black";
+
+}
+
+h1 {
+
+	text-transform: uppercase;
+	display: inline-block;
+	position: relative;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+
+}
+
+h2 {
+
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	font-family: "WorkSans-Black";
+	width: 50vw;
+	left: 50%;
+	transform: translate(-50%);
+	padding-bottom: 20px;
+
+}
+
+.body-text {
+
+	font-family: "WorkSans-Regular";
+	font-size: 1em;
+	line-height: 1.35em;
+
+	width: 50vw;
+	position: relative;
+	display: inline-block;
+	left: 50%;
+	transform: translate(-50%);
+
+	overflow-y: scroll;
+
+}

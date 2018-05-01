@@ -1,0 +1,335 @@
+.flex-container_topic {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  background-color: DodgerBlue;
+  margin-top: 10vh;
+
+}
+
+.flex-container_topic > div {
+  background-color: white;
+  width: 10%;
+  padding: 20px;
+  font-size: 30px;
+  overflow: scroll;
+
+}
+
+.flex-container {
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+  background-color: DodgerBlue;
+  /*overflow: hidden;*/
+  /*margin-top: 10vh;*/
+
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.right img:hover { 
+   opacity: .1;
+
+}
+
+
+.left img:hover {
+	opacity: .1;
+	color: yellow;
+}
+
+
+
+/*.boop:hover::after {
+	content: "-this";
+	position: absolute;
+	text-align: center;
+}
+*/
+img {
+	width: 6vw;
+}
+.section {
+	height: auto;
+	background-color: white;
+	/*padding-bottom: */
+}
+
+.flex-container > div {
+  background-color: white;
+  width: 10%;
+  padding: 20px;
+  font-size: 30px;
+  overflow: scroll;
+}
+
+
+.flex-container img {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 5vh;
+}
+
+.grid-item {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+@font-face{
+
+	src: "../fonts/WorkSans-Regular.ttf";
+	font-family: "WorkSans-Regular";
+
+}
+
+@font-face{
+
+	src: "../fonts/WorkSans-Black.ttf";
+	font-family: "WorkSans-Black";
+
+}
+
+* {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.circle {
+	height: 30px;
+	width: 30px;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	border-radius: 50%;
+	border: solid 1px black;
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+
+}
+
+.__filledin {
+	background-color: black;
+
+}
+
+
+
+.header {
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: white;
+	height: 10vh;
+	font-family: "WorkSans-Black";
+	z-index: 999;
+}
+
+.subhead {
+	background-color: white;
+	height: 10vh;
+	line-height: 10vh;
+	width: 100vw;
+	font-family: "WorkSans-Black";
+	/*border: 1px solid black;*/
+
+}
+
+body {
+	font-family: "WorkSans-Regular";
+	font-size: 1.2vw;
+
+}
+
+.center {
+	width: 100vw;
+	position: absolute;
+	display: inline-block;	
+	overflow-y: scroll;
+	padding-top: 30vh;
+	padding-bottom: 20vh;
+
+}
+
+.left, .right {
+	width: 10vw;
+	height: 300vh;
+	position: absolute;
+	display: inline-block;
+	/*background: cornflowerblue;*/
+	/*top: 15vh;*/
+	margin-top: 100vh;
+	z-index: 9999;
+
+
+}
+
+p {
+	padding-bottom: 1em;	
+}
+
+.hero-image {
+	width: 100%;
+	padding-bottom: 5vh;
+}
+
+
+.caption {
+	font-size: .7em;
+	text-align: center;
+	/*padding-bottom: 1vh;*/
+	height: 4vh;
+	text-transform: uppercase;
+	position: sticky;
+	top: 8vh;
+	/*background-color: blue;*/
+	margin-bottom: 10vh;
+	/*display: block;*/
+}
+
+
+.right {
+	position: absolute;
+	right: 0;
+}
+
+.left > img {
+	width: 6vw;
+	display: block;
+	margin: 0 auto;
+	position: sticky;
+	margin-bottom: 10vh;
+	top: 14vh;
+	/*margin-top: 3vh;*/
+}
+
+.right > img {
+	width: 6vw;
+	display: block;
+	margin: 0 auto;
+	position: sticky;
+	top: 14vh;
+	margin-bottom: 20vh;
+}
+
+a img {
+	width: 6vw;
+	display: block;
+	margin: 0 auto;
+	position: sticky;
+	top: 14vh;
+	margin-bottom: 20vh;
+}
+
+.offset {
+	/*top: 30vh;*/
+}
+
+
+h1 {
+
+	text-transform: uppercase;
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+
+}
+
+h2 {
+
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	font-family: "WorkSans-Regular";
+	width: 50vw;
+	font-size: 1em;
+	font-weight: 400;
+	left: 50%;
+	transform: translate(-50%);
+	
+
+}
+
+h4 {
+
+	text-transform: uppercase;
+	font-size: 0.5em;
+	font-family: "WorkSans-Regular";
+	text-align: center;
+	padding-bottom: 1vh;
+	position: 
+}
+
+
+
+.body-text {
+
+	font-family: "WorkSans-Regular";
+	font-size: 1em;
+	line-height: 1.35em;
+
+	width: 50vw;
+	position: relative;
+	display: inline-block;
+	left: 50%;
+	transform: translate(-50%);
+
+	overflow-y: scroll;
+}
+
+
+
+.chapter {
+	width: 100vw;
+	height: 5vh;
+	top: 0;
+	position: fixed;
+	right: 0;
+	/*text-align: right;*/
+	padding-top: 1vw;
+	padding-right: 1vw;
+	z-index: 999999;
+	/*background-color: yellow;*/
+}
+
+.dropdown {
+    position: absolute;
+    width: 20vw;
+    display: inline-block;
+    top: 0;
+    right: 0;
+    background-color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 30vw;
+    background-color: white;
+
+    text-align: left;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content p {
+    line-height: 1;
+    }
